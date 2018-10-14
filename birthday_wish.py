@@ -3,6 +3,9 @@
 import time
 
 def counter(n):
+    """
+    Show Happy Birthday message after n sec 
+    """
     while n>0:
         print(n)
         n -= 1
